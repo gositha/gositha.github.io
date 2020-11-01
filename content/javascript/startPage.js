@@ -6,12 +6,14 @@
  document.head.innerHTML = document.head.innerHTML + '<link href="/content/themes/404.css" rel="stylesheet" />';
   var path = window.location.pathname;
 var page = path.split("/").pop();
+  console.log("page = " + page);
   if (page == "index.html") {
    page = "Home";
   }
   else {
    page = page.sub(1, page.length - 5);
   }
+  console.log("page = " + page);
   document.title = page + " | gositha.github.io";
  }
 loadPage();
