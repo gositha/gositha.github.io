@@ -6,7 +6,7 @@
  document.head.innerHTML = document.head.innerHTML + '<link href="/content/themes/404.css" rel="stylesheet" />';
   var path = window.location.pathname;
 var page = path.split("/").pop();
-  if page == "index.html" {
+  if (page == "index.html") {
    page = "Home";
   }
   else {
@@ -14,4 +14,4 @@ var page = path.split("/").pop();
   }
   document.title = page + " | gositha.github.io";
  }
-loadPage()
+loadPage();
