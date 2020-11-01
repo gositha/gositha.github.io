@@ -7,11 +7,11 @@
   var path = window.location.pathname;
 var page = path.split("/").pop();
   if page == "index.html" {
-   page = "Home"
+   page = "Home";
   }
   else {
-   page = page.sub(1, page.len()-5)
+   page = page.sub(1, page.len()-5);
   }
-  document.title = page + 
+  document.title = page + " | gositha.github.io"
  }
 loadPage()
