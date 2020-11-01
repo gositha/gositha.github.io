@@ -12,6 +12,6 @@ var page = path.split("/").pop();
   else {
    page = page.sub(1, page.len()-5);
   }
-  document.title = page + " | gositha.github.io"
+  document.title = page + " | gositha.github.io";
  }
 loadPage()
