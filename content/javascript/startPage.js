@@ -3,6 +3,6 @@
  
  function loadPage() {
  document.head.innerHTML = document.head.innerHTML + '<link href="/content/images/icon.jpg" rel="icon" />';
- document.head.innerHTML = document.head.innerHTML + '<link href="/content/themes/404.css" rel="stylesheet">';
+ document.head.innerHTML = document.head.innerHTML + '<link href="/content/themes/404.css" rel="stylesheet" />';
  }
 loadPage()
