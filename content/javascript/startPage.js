@@ -10,7 +10,7 @@ var page = path.split("/").pop();
    page = "Home";
   }
   else {
-   page = page.sub(1, page.len()-5);
+   page = page.sub(1, page.length - 5);
   }
   document.title = page + " | gositha.github.io";
  }
